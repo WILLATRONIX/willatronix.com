@@ -1,4 +1,10 @@
+// .vitepress/config.js
 export default {
-  title: 'My VitePress Site',
-  description: 'Just playing around.'
+  // site-level options
+  title: 'VitePress',
+  description: 'Just playing around.',
+
+  themeConfig: {
+    // theme-level options
+  }
 }
