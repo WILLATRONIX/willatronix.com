@@ -1,28 +1,17 @@
 {
-  "name": "docs",
-  "private": true,
+  "name": "my-vitepress-site",
   "version": "1.0.0",
-  "description": "Source for the official Pi-hole documentation",
-  "main": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pi-hole/docs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "CC-BY-SA-4.0",
-  "bugs": {
-    "url": "https://github.com/pi-hole/docs/issues"
-  },
-  "homepage": "https://docs.pi-hole.net/",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "mkdocs build --clean",
-    "markdownlint": "markdownlint-cli2 \"**/*.md\" \"!**/node_modules/**\"",
-    "linkinator": "npm run build && linkinator site --recurse --silent --skip \"^(?!http://localhost)\"",
-    "test": "npm run markdownlint && npm run linkinator"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "deploy": "vitepress build docs && cd docs/.vitepress/dist && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/your-username/my-vitepress-site.git master:gh-pages && cd -"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "linkinator": "^6.0.5",
-    "markdownlint-cli2": "0.13.0"
+    "vitepress": "^1.2.3"
   }
 }
