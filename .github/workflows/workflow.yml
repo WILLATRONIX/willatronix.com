@@ -21,6 +21,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Remove and reinitialize submodules
+        run: |
+          git submodule deinit -f --all
+          git submodule update --init --recursive
+
+      - name: Clean up before build
+        run: |
+          rm -rf ./docs/.vitepress/dist  # adjust path if necessary
+          mkdir -p ./docs/.vitepress/dist
+
       - name: Build VitePress
         run: npm run docs:build
 
