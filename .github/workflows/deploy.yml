@@ -20,8 +20,8 @@ jobs:
 
       - name: Remove existing submodule (if any)
         run: |
-          git submodule deinit -f -- docs/.vitepress/dist
-          rd /s /q docs\.vitepress\dist
+          git submodule deinit -f docs/.vitepress/dist
+          Remove-Item -Recurse -Force docs\.vitepress\dist
 
       - name: Initialize and update submodules
         run: |
