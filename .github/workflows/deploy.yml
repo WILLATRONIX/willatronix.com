@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repository
@@ -18,30 +18,24 @@ jobs:
         with:
           node-version: '16'
 
+      - name: Remove existing submodule (if any)
+        run: |
+          git submodule deinit -f -- docs/.vitepress/dist
+          rd /s /q docs\.vitepress\dist
+
+      - name: Initialize and update submodules
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive
+
       - name: Install dependencies
         run: npm install
 
-      - name: Ensure `node_modules/.bin` is in PATH
-        run: echo "$GITHUB_WORKSPACE/node_modules/.bin" >> $GITHUB_PATH
-
-      - name: Fix permissions for vitepress binary
-        run: chmod +x ./node_modules/.bin/vitepress
-
       - name: Build the site
         run: npm run build
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/.vitepress/dist
-
-      - name: Initialize and update submodules
-        run: |
-          git submodule sync --recursive
-          git submodule update --init --recursive
