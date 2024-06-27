@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "deploy": "vitepress build docs && cd docs/.vitepress/dist && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/your-username/my-vitepress-site.git master:gh-pages && cd -"
+    "deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.2.3"
+    "vitepress": "^1.2.3",
+    "gh-pages": "^5.0.0"
   }
 }
