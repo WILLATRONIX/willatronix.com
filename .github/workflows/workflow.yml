@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Deploy VitePress
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
+      
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -21,9 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build with VitePress
-        run: |
-          npm run docs:build
+      - name: Build VitePress
+        run: npm run docs:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
