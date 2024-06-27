@@ -13,11 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
       - name: Remove existing submodule (if any)
         run: |
           git submodule deinit -f docs/.vitepress/dist
@@ -27,6 +22,11 @@ jobs:
         run: |
           git submodule sync --recursive
           git submodule update --init --recursive
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
       - name: Install dependencies
         run: npm install
