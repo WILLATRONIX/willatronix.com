@@ -1,3 +1,0 @@
-[submodule "docs/.vitepress/dist"]
-    path = docs/.vitepress/dist
-    url = https://github.com/WILLATRONIX/willatronix.com.git
