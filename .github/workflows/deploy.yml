@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -16,7 +16,7 @@ jobs:
       - name: Remove existing submodule (if any)
         run: |
           git submodule deinit -f docs/.vitepress/dist
-          Remove-Item -Recurse -Force docs\.vitepress\dist
+          rm -rf docs/.vitepress/dist
 
       - name: Initialize and update submodules
         run: |
