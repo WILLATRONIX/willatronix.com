@@ -6,7 +6,7 @@ module.exports = {
 
   themeConfig: {
     nav: [
-      { text: 'Example', link: '/example' },
+      { text: 'Example', link: '/home' },
 
       {
         text: 'Dropdown Menu',
@@ -20,10 +20,9 @@ module.exports = {
 
     sidebar: [
       {
-        // text: 'Guide',
+         text: 'Guide',
         items: [
-          { text: 'Examplee', link: '/example' },
-          // ...
+          { text: 'Example', link: '/home' },
         ],
       },
     ],
