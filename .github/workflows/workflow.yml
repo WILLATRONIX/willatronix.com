@@ -1,17 +1,17 @@
-name: Deploy to GitHub Pages
+name: Deploy VitePress Documentation
 
 on:
   push:
     branches:
-      - main  # Replace with your branch name
+      - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      
+
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Build VitePress site
-        run: npm run build  # Adjust this command based on your build script
+        run: npm run docs:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
