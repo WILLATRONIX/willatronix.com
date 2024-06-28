@@ -1,11 +1,11 @@
 {
-  "name": "willatronix.github.io",
+  "name": "willatronix.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:build": "vitepress build",
     "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
   "keywords": [],
