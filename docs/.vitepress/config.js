@@ -1,17 +1,13 @@
 // refer https://vitepress.dev/reference/site-config for details
 import { defineConfig } from 'vitepress'
 
-module.exports = {
+export default defineConfig({
   lang: 'en-US',
   title: 'WILLATRONIX',
-  description: 'I hope this works',
-};
-
-export default defineConfig({
+  description: 'Your description here',
   themeConfig: {
     nav: [
-      { text: 'Example', link: '/home' },
-
+      { text: 'Home', link: '/' },
       {
         text: 'Dropdown Menu',
         items: [
@@ -21,14 +17,19 @@ export default defineConfig({
         ],
       },
     ],
-
-    sidebar: [
-      {
-         text: 'Guide',
-        items: [
-          { text: 'Example', link: '/home' },
-        ],
-      },
-    ],
-  },
+    sidebar: {
+      '/': [
+        {
+          text: 'Home',
+          link: '/home'
+        },
+        {
+          text: 'Guide',
+          children: [
+            { text: 'Getting Started', link: '/guide/getting-started' },
+          ]
+        }
+      ]
+    }
+  }
 })
