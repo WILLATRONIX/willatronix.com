@@ -1,9 +1,13 @@
 // refer https://vitepress.dev/reference/site-config for details
+import { defineConfig } from 'vitepress'
+
 module.exports = {
   lang: 'en-US',
-  title: 'VitePress',
-  description: 'Vite & Vue powered static site generator.',
+  title: 'WILLATRONIX',
+  description: 'I hope this works',
+};
 
+export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Example', link: '/home' },
@@ -27,4 +31,4 @@ module.exports = {
       },
     ],
   },
-};
+})
