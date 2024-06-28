@@ -1,3 +1,10 @@
+name: Build and Deploy VitePress
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,7 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       
+      - name: Set execute permissions
+        run: chmod +x ./node_modules/.bin/vitepress
+      
       - name: Build VitePress
-        run: |
-          /bin/bash -c "chmod +x ./node_modules/.bin/vitepress"
-          npx ./node_modules/.bin/vitepress build
+        run: npx ./node_modules/.bin/vitepress build
