@@ -1,37 +1,37 @@
-name: Build VitePress
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - main  # Replace with your branch name
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Setup Node.js
+      
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'
+          node-version: '14'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: Make Vitepress Executable
-        run: chmod +x ./node_modules/.bin/vitepress
-
-      - name: Build Documentation
-        run: npx vitepress build
+      - name: Build VitePress site
+        run: npm run build  # Adjust this command based on your build script
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GH_PAT }}
           publish_dir: docs/.vitepress/dist
+          publish_branch: gh-pages
+          allow_empty_commit: false
+          keep_files: false
+          force_orphan: false
+          enable_jekyll: false
+          disable_nojekyll: false
+          exclude_assets: .github
