@@ -12,15 +12,25 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/': [
+        {
+          text: 'Examples',
+          items: [
+            { text: 'Markdown Examples', link: '/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/api-examples' }
+          ]
+        }
+      ],
+
+      '/docs/': [
+        {
+          text: 'Home',
+          items: [
+            { text: 'Home', link: '/docs/home' }
+          ]
+        }
+      ]},
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
