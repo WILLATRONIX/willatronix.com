@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "WILLATRONIX"
-  text: "A Shit Site"
-  tagline: My great project tagline
+  text: "Everything WILLATRONIX."
+  tagline: Want to know a bit more about this mysterious 'WILLATRONIX'? Maybe you're here to know A LOT about me? Well, you're in luck! 
   actions:
     - theme: brand
       text: Markdown Examples
