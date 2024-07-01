@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Test', link: '/docs/home.md' },
+      { text: 'About', link: '/docs/about-willatronix' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -23,11 +23,12 @@ export default defineConfig({
         }
       ],
 
-      '/docs/': [
+      '/docs/about-willatronix/': [
         {
-          text: 'Home',
+          text: 'About WILLATRONIX',
           items: [
-            { text: 'Home', link: '/docs/home' }
+            { text: 'Username', link: '/docs/about-willatronix/username.md' },
+            { text: 'Avatar', link: '/docs/about-willatronix/avatar.md' }
           ]
         }
       ]},

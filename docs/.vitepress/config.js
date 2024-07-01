@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  base: 'user.github.io/willatronix.com/'
+  base: 'user.github.io/willatronix.com/',
   title: 'WILLATRONIX',
   description: 'Your description here',
   themeConfig: {
