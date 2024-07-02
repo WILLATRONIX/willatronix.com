@@ -12,7 +12,17 @@ export default defineConfig({
       { text: 'About', link: '/docs/about-willatronix' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-
+    search: {
+      provider: 'local',
+      options: {
+        _render(src, env, md) {
+          const html = md.render(src, env)
+          if (env.frontmatter?.search === false) return ''
+          if (env.relativePath.startsWith('CHANGE/ME')) return ''
+          return html
+        }
+      }
+    },
     sidebar: {
       '/': [
         {
@@ -24,12 +34,12 @@ export default defineConfig({
         }
       ],
 
-      '/docs/about-willatronix/': [
+      '/about/': [
         {
           text: 'About WILLATRONIX',
           items: [
-            { text: 'Username', link: '/docs/about-willatronix/username.md' },
-            { text: 'Avatar', link: '/docs/about-willatronix/avatar.md' }
+            { text: 'Username', link: '/about/username' },
+            { text: 'Avatar', link: '/about/avatar' }
           ]
         }
       ]},

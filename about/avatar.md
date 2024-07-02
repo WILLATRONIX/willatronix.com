@@ -4,7 +4,7 @@ Unlike my username, my avatar has gone through many changes. Some changes are mo
 
 ![Avatar 0](/img/about-willatronix/avatar/0.webp)
 
-This is the avatar used for the [CuboxYT username](username.md#will-the-madman--cuboxyt). The watermark for the online photo creation site can be seen at the bottom right, however I cannot find the site.
+This is the avatar used for the [CuboxYT username](username#will-the-madman--cuboxyt). The watermark for the online photo creation site can be seen at the bottom right, however I cannot find the site.
 
 ![Avatar 1](/img/about-willatronix/avatar/1.webp)
 
