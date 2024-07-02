@@ -12,6 +12,10 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
+    search: {
+      provider: 'local'
+    },
+
     sidebar: {
       '/': [
         {
@@ -27,14 +31,18 @@ export default defineConfig({
         {
           text: 'About WILLATRONIX',
           items: [
-            { text: 'Username', link: '/docs/about-willatronix/username.md' },
-            { text: 'Avatar', link: '/docs/about-willatronix/avatar.md' }
+            { text: 'Username', link: '/docs/about-willatronix/' },
           ]
         }
       ]},
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/WILLATRONIX/willatronix.com' }
     ]
+  },
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
   }
 })
