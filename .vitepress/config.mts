@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "WILLATRONIX",
   description: "Everything WILLATRONIX.",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -11,10 +12,6 @@ export default defineConfig({
       { text: 'About', link: '/docs/about-willatronix' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-
-    search: {
-      provider: 'local'
-    },
 
     sidebar: {
       '/': [
@@ -31,7 +28,8 @@ export default defineConfig({
         {
           text: 'About WILLATRONIX',
           items: [
-            { text: 'Username', link: '/docs/about-willatronix/' },
+            { text: 'Username', link: '/docs/about-willatronix/username.md' },
+            { text: 'Avatar', link: '/docs/about-willatronix/avatar.md' }
           ]
         }
       ]},
