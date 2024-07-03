@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "WILLATRONIX"
-  text: "Everything WILLATRONIX."
+  text: "All about me"
   tagline: Want to know a bit more about this mysterious 'WILLATRONIX'? Maybe you're here to know A LOT about me? Well, you're in luck! 
   actions:
     - theme: brand
