@@ -84,7 +84,7 @@ Added further texturing to the walls and added gas canisters.
 Redid the interior to match the correct scale.
 ![Image](/img/br-2024/build-process/31.png)
 
-Moved the bed and added a stove connected to the gas canisters, draws and a wood burner.
+Moved the bed and added a stove connected to the gas canisters, drawers and a wood burner.
 ![Image](/img/br-2024/build-process/32.png)
 
 Added an attic entrance.

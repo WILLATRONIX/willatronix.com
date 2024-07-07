@@ -22,7 +22,7 @@ A small dirt hut with an interior full of cake, hidden away in the rocks.
 
 ## Among Us
 
-Some among us characters chilling in the draws.
+Some among us characters chilling in the drawers.
 
 ![Sus](/img/br-2024/easter-eggs/sus.png)
 
