@@ -1,6 +1,8 @@
 # WILLATRONIX's Firewatch Tower
 
-Taking a total of 206 hours, this lookout tower took a lot of effort to construct and finish.
+![Finished Build](/img/br-2024/index/finised-build.png)
+
+Taking a total of 206 hours, this lookout tower took a lot of effort to construct and finish. Every detail possible has been added so there is nothing to hide other than minor mistakes.
 
 ## Solitary Theme
 
@@ -8,12 +10,26 @@ Represented by the Firewatch game, working in a fire lookout tower is one of the
 
 ## Details You May Miss
 
-- Every plank of wood which can't be glued has nails.
+- Every plank of wood has nails, other than wood that can be glued
 - Insulation has been put in the walls, floor and ceiling.
 - Gas and power cables lead to their appropriate destination.
 - The slanted planks on the walls are held with small bits of wood nailed to the wall.
 - The grass was generated using a custom algorithm that factored light and moisture.
 - All wood textures are unique.
+
+## Further Information
+
+The build was made mostly in the Axiom Editor Mode and some of the props were hand-modelled. Though all texturing was done with Axiom.
+
+The time of year for this build is summer, as it's dry and wood is plentiful.
+
+![Cross Section](/img/br-2024/index/cross-section.png)
+
+## What I Would Do If I Built This Again
+
+I would reference the official standard linked in [References](references.md#other-references-used) to accurately follow the same rules as a lookout tower would in terms of scale and measurements.
+
+I would also scale down the wood texture as it was too stretched.
 
 ## Judging Criteria Goals
 
@@ -51,9 +67,11 @@ Every part of the structure has been designed to represent a real structure as c
 
 As you can see, I've made the most of my plot space. Though this came at the cost of time.
 
+The build is exactly 300x381x300.
+
 - Best Interior
 
-Full of all the essentials a lookout person would need, the interior is full of interesting objects.
+Full of all the essentials a lookout person would need, the interior is packed with lots of interesting objects.
 
 ## Props 
 

@@ -15,3 +15,19 @@ Another reference I used was an image of Spruce Mountain Lookout. I used this ma
 [Post by pitamakan on the Firewatch subreddit](https://www.reddit.com/r/Firewatch/comments/158cwkj/some_of_the_firewatch_devs_backpacked_into_my/)
 
 [The Official Standard Lookout Structure Plans by T.W. Norcross, 1938 (PDF)](https://www.fs.usda.gov/eng/facilities/documents/1938_USDA-FS_StdLookoutPlans.pdf)
+
+## Some Image References 
+
+![Interior 1](/img/br-2024/references/interior-ref-1.png)
+
+![Interior 2](/img/br-2024/references/interior-ref-2.png)
+
+![Interior 3](/img/br-2024/references/interior-ref-3.png)
+
+![Interior 4](/img/br-2024/references/interior-ref-4.png)
+
+![Interior 5](/img/br-2024/references/interior-ref-5.webp)
+
+![Structure Plan 1](/img/br-2024/references/structure-plan-1.png)
+
+![Structure Plan 2](/img/br-2024/references/structure-plan-2.png)
