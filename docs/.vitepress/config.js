@@ -15,7 +15,6 @@ export default defineConfig({
       {
         text: 'Dropdown Menu',
         items: [
-          { text: 'Competition', link: '/br-2024/index' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
         ],
       },

@@ -8,8 +8,8 @@ hero:
   tagline: Incomplete site, may lack cool features.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Competition
+      link: /br-2024/index
     - theme: alt
       text: API Examples
       link: /api-examples
