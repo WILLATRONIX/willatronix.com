@@ -34,6 +34,18 @@ export default defineConfig({
         }
       ],
 
+      '/br-2024/': [
+        {
+          text: "Builder's Refuge Solitary Competition",
+          items: [
+            { text: 'About', link: '/br-2024/index' },
+            { text: 'Inspiration', link: '/br-2024/inspiration' },
+            { text: 'Planning', link: '/br-2024/planning' },
+            { text: 'Easter Eggs', link: '/br-2024/easter-eggs' },
+          ]
+        }
+      ],
+
       '/about/': [
         {
           text: 'About WILLATRONIX',
