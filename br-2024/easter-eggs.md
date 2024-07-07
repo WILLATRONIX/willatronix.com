@@ -8,6 +8,12 @@ A happy frog making the most of the damp grass.
 
 ![Frog](/img/br-2024/easter-eggs/frog-2.png)
 
+## Snail
+
+A snail searching for a soulmate, where could one possibly be?
+
+![Snail](/img/br-2024/easter-eggs/snail.png)
+
 ## Dirt hut home
 
 A small dirt hut with an interior full of cake, hidden away in the rocks.

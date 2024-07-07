@@ -40,7 +40,8 @@ export default defineConfig({
           items: [
             { text: 'About', link: '/br-2024/index' },
             { text: 'Inspiration', link: '/br-2024/inspiration' },
-            { text: 'Planning', link: '/br-2024/planning' },
+            { text: 'References', link: '/br-2024/references' },
+            { text: 'Build Process', link: '/br-2024/build-process' },
             { text: 'Easter Eggs', link: '/br-2024/easter-eggs' },
           ]
         }
