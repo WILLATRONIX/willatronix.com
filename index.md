@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "WILLATRONIX"
   text: "All about me"
-  tagline: Want to know a bit more about this mysterious 'WILLATRONIX'? Maybe you're here to know A LOT about me? Well, you're in luck! 
+  tagline: Incomplete site, may lack cool features.
   actions:
     - theme: brand
       text: Markdown Examples

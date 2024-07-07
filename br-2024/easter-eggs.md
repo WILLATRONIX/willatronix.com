@@ -6,7 +6,7 @@ Throughout the build I've hidden plenty of secrets and references.
 
 A happy frog making the most of the damp grass.
 
-![Frog](/img/br-2024/easter-eggs/frog.png)
+![Frog](/img/br-2024/easter-eggs/frog-2.png)
 
 ## Dirt hut home
 
@@ -48,7 +48,7 @@ A reference to the Pink Sheep YouTube channel which peaked around 2015.
 
 A clone of the real frog, but a different colour and covered in dust in the attic.
 
-![Frog toy](/img/br-2024/easter-eggs/frog-2.png)
+![Frog toy](/img/br-2024/easter-eggs/frog.png)
 
 ## Jumanji board
 
