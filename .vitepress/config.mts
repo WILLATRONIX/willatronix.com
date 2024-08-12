@@ -50,12 +50,12 @@ export default defineConfig({
         {
           text: "Builder's Refuge Solitary Competition",
           items: [
-            { text: 'About', link: '/br-2024/index' },
-            { text: 'Inspiration', link: '/br-2024/inspiration' },
-            { text: 'References', link: '/br-2024/references' },
-            { text: 'Build Process', link: '/br-2024/build-process' },
-            { text: 'Easter Eggs', link: '/br-2024/easter-eggs' },
-            { text: 'Back To Builds', link: './../' },
+            { text: '🡹 Return', link: './../' },
+            { text: 'About', link: './index' },
+            { text: 'Inspiration', link: './inspiration' },
+            { text: 'References', link: './references' },
+            { text: 'Build Process', link: './build-process' },
+            { text: 'Easter Eggs', link: './easter-eggs' },
           ]
         }
       ],
