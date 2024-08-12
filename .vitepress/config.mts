@@ -73,6 +73,17 @@ export default defineConfig({
           ]
         }
       ],
+      '/about/hobbies/games/minecraft/builds/bryce-canyon/': [
+        {
+          text: "Bryce Canyon",
+          items: [
+            { text: '🡹 Return', link: './../' },
+            { text: 'About', link: './index' },
+            { text: 'References', link: './references' },
+            { text: 'Build Process', link: './build-process' },
+          ]
+        }
+      ],
 
       '/about/': [
         {
