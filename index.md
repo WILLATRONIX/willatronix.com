@@ -2,14 +2,17 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-
-
-<div class="hero">
-  <h1>WILLATRONIX</h1>
-  <p>Incomplete site, may lack cool features.</p>
-</div>
-
-
+hero:
+  name: "WILLATRONIX"
+  text: "All about me"
+  tagline: Incomplete site, may lack cool features.
+  actions:
+    - theme: brand
+      text: Competition
+      link: /br-2024/index
+    - theme: alt
+      text: API Examples
+      link: /api-examples
 
 features:
   - title: "Recently Added: Builds"
