@@ -59,6 +59,17 @@ export default defineConfig({
           ]
         }
       ],
+      '/about/hobbies/games/minecraft/builds/norwegian-landscape/': [
+        {
+          text: "Norwegian Landscape Map",
+          items: [
+            { text: 'About', link: './index' },
+            { text: 'Build Process', link: './build-process' },
+            { text: 'Post Review', link: './post-review' },
+            { text: '🡹 Return', link: './../' },
+          ]
+        }
+      ],
 
       '/about/': [
         {

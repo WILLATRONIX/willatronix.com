@@ -10,7 +10,7 @@ export default defineConfig({
   title: 'WILLATRONIX',
   description: 'Your description here',
   head: [
-    ['link', { rel: 'icon', href: 'img/favicon.png' }],
+    ['link', { rel: 'icon', href: '/img/favicon.png' }],
   ],
   themeConfig: {
     nav: [
