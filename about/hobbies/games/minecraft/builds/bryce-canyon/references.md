@@ -2,7 +2,7 @@
 
 I will be using as many real life sources of information about the geology and vegetation to make sure I can accurately represent Bryce Canyon in Minecraft.
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/bryce-canyon/index/bryce-canyon.jpg)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/bryce-canyon/index/bryce-canyon.webp)
 
 https://en.wikipedia.org/wiki/Bryce_Canyon_National_Park
 

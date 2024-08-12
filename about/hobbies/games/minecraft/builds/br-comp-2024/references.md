@@ -4,7 +4,7 @@ After figuring I might build a fire lookout tower, I watched a few videos on wha
 
 Another reference I used was an image of Spruce Mountain Lookout. I used this mainly for the structural parts of the build, but not making a full replica.
 
-![Spruce Mountain Lookout](/img/about-willatronix/hobbies/games/minecraft/builds/br-2024/references/spruce-mountain-lookout.jpg)
+![Spruce Mountain Lookout](/img/about-willatronix/hobbies/games/minecraft/builds/br-2024/references/spruce-mountain-lookout.webp)
 
 ## Other references used
 

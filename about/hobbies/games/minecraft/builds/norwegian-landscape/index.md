@@ -17,7 +17,7 @@ I have shared the zip file to my Patreon which includes multiple variants of the
 - Decorations
   - Includes trees, rocks and vegitation alongside full texturing
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/lake.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/lake.webp)
 
 ## Biomes
 
@@ -32,10 +32,10 @@ I split the map up into six different biomes:
 
 ###### Ocean not listed in image
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/biomes.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/biomes.webp)
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/mountains.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/mountains.webp)
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/swamp.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/swamp.webp)
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/map.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/norwegian-landscape/index/map.webp)

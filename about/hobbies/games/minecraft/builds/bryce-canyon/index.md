@@ -6,7 +6,7 @@ The map will be 3000 x 3000 blocks in size and will be 1:1 scale.
 
 The final result should be an extremely detailed map inspired by the geology of Bryce Canyon, not a replica.
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/bryce-canyon/index/forest.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/bryce-canyon/index/forest.webp)
 
 ## Assets
 

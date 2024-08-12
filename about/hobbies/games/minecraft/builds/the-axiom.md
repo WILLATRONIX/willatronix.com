@@ -4,7 +4,7 @@ This build started off as a joke idea, but then turned into a pretty decent plan
 
 Each segment of the Axiom logo will represent three different building styles:
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/axiom-icon.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/axiom-icon.webp)
 
 - Blue
   - Fantasy organic(s)
@@ -19,4 +19,4 @@ Each segment will work its best to power its own core. For example, the red segm
 
 This is the current state of the structure. The trains will transport coal to feed the coal plants which will keep the core alive. 
 
-![image](/img/about-willatronix/hobbies/games/minecraft/builds/axiom-segment.png)
+![image](/img/about-willatronix/hobbies/games/minecraft/builds/axiom-segment.webp)
