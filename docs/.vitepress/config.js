@@ -9,6 +9,9 @@ export default defineConfig({
   base: 'user.github.io/willatronix.com/',
   title: 'WILLATRONIX',
   description: 'Your description here',
+  head: [
+    ['link', { rel: 'icon', href: 'img/favicon.png' }],
+  ],
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
