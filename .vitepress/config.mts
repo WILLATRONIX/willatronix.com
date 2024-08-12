@@ -50,12 +50,12 @@ export default defineConfig({
         {
           text: "Builder's Refuge Solitary Competition",
           items: [
-            { text: '🡹 Return', link: './../' },
             { text: 'About', link: './index' },
             { text: 'Inspiration', link: './inspiration' },
             { text: 'References', link: './references' },
             { text: 'Build Process', link: './build-process' },
             { text: 'Easter Eggs', link: './easter-eggs' },
+            { text: '🡹 Return', link: './../' },
           ]
         }
       ],

@@ -15,8 +15,9 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature 1
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: "Recently Added: Builds"
+    details: Features my minecraft builds
+    link: /about/hobbies/games/minecraft/builds/index
   - title: Feature 2
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature 3
