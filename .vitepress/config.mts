@@ -38,6 +38,7 @@ export default defineConfig({
         {
           text: "My Minecraft Builds",
           items: [
+            { text: 'About', link: './index' },
             { text: 'Bryce Canyon', link: './bryce-canyon' },
             { text: "Builder's Refuge Solitary Competition", link: './br-comp-2024/' },
             { text: 'Norwegian Landscape Map', link: './norwegian-landscape' },
@@ -50,12 +51,12 @@ export default defineConfig({
         {
           text: "Builder's Refuge Solitary Competition",
           items: [
+            { text: '🡹 Return', link: './../' },
             { text: 'About', link: './index' },
             { text: 'Inspiration', link: './inspiration' },
             { text: 'References', link: './references' },
             { text: 'Build Process', link: './build-process' },
             { text: 'Easter Eggs', link: './easter-eggs' },
-            { text: '🡹 Return', link: './../' },
           ]
         }
       ],
@@ -63,10 +64,10 @@ export default defineConfig({
         {
           text: "Norwegian Landscape Map",
           items: [
+            { text: '🡹 Return', link: './../' },
             { text: 'About', link: './index' },
             { text: 'Build Process', link: './build-process' },
             { text: 'Post Review', link: './post-review' },
-            { text: '🡹 Return', link: './../' },
           ]
         }
       ],
