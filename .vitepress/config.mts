@@ -40,8 +40,10 @@ export default defineConfig({
           items: [
             { text: 'About', link: './index' },
             { text: 'Bryce Canyon', link: './bryce-canyon' },
+            { text: 'Chain Tree', link: './chain-tree' },
             { text: "Builder's Refuge Solitary Competition", link: './br-comp-2024/' },
             { text: 'Norwegian Landscape Map', link: './norwegian-landscape' },
+            { text: 'Oblivion Desert', link: './oblivion-desert' },
             { text: 'The Axiom', link: './the-axiom' },
           ]
         }
