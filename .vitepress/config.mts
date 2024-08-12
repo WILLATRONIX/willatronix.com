@@ -34,7 +34,19 @@ export default defineConfig({
         }
       ],
 
-      '/br-2024/': [
+      '/about/hobbies/games/minecraft/builds/': [
+        {
+          text: "Builder's Refuge Solitary Competition",
+          items: [
+            { text: 'Bryce Canyon', link: 'bryce-canyon' },
+            { text: "Builder's Refuge Solitary Competition", link: '/br-comp-2024/' },
+            { text: 'Norwegian Landscape Map', link: 'norwegian-landscape' },
+            { text: 'The Axiom', link: 'the-axiom' },
+          ]
+        }
+      ],
+
+      '/about/hobbies/games/minecraft/builds/br-comp-2024/': [
         {
           text: "Builder's Refuge Solitary Competition",
           items: [
