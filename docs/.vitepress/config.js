@@ -11,6 +11,7 @@ export default defineConfig({
   description: 'Your description here',
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.png' }],
+    ['link', { rel: 'stylesheet', href: '/path/to/your/custom.css' }],
   ],
   themeConfig: {
     nav: [
