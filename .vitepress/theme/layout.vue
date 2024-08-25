@@ -8,9 +8,13 @@
   
   <script setup>
   import { useRoute } from 'vitepress'
+  import { ref, watch } from 'vue'
   import './flashback-page.css'
   
   const route = useRoute()
+  const customClass = ref('')
   
-  const customClass = route.path === '/flashback/' || route.path.startsWith('/flashback/') ? 'flashback-page' : ''
+  watch(() => route.path, (newPath) => {
+    customClass.value = newPath.startsWith('/flashback') ? 'flashback-page' : ''
+  }, { immediate: true })
   </script>
