@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Start Reading
-      link: docs/
+      link: docs/editor/timeline/
     - theme: alt
       text: Help
       link: help/
