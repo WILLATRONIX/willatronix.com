@@ -1,7 +1,6 @@
 /* .vitepress/theme/flashback-page.css */
 
 .flashback-page {
-    background-color: #fff9db;
     color: #333;
   }
   
@@ -32,5 +31,4 @@
   
   .flashback-page .specific-component {
     border-color: #f0c808;
-    background-color: #fff9db;
   }
