@@ -12,5 +12,5 @@
   
   const route = useRoute()
   
-  const customClass = route.path.startsWith('/flashback') ? 'flashback-page' : ''
+  const customClass = route.path.includes('flashback') ? 'flashback-page' : ''
   </script>
