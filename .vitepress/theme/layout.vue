@@ -1,50 +1,28 @@
 <!-- .vitepress/theme/Layout.vue -->
 
 <template>
-    <div :class="customClass">
+    <div id="page-container">
       <slot />
     </div>
   </template>
   
   <script setup>
+  import { onMounted, onUpdated } from 'vue'
   import { useRoute } from 'vitepress'
   import './flashback-page.css'
   
   const route = useRoute()
-  const customClass = route.path.startsWith('/flashback') ? 'flashback-page' : ''
+  
+  function applyClass() {
+    const pageContainer = document.getElementById('page-container')
+    if (route.path.startsWith('/flashback')) {
+      pageContainer.classList.add('flashback-page')
+    } else {
+      pageContainer.classList.remove('flashback-page')
+    }
+  }
+  
+  onMounted(applyClass)
+  onUpdated(applyClass)
   </script>
   
-  <style scoped>
-  .flashback-page {
-    color: #333;
-  }
-  
-  .flashback-page a {
-    color: #f0c808;
-  }
-  
-  .flashback-page a:hover {
-    color: #e6b800;
-  }
-  
-  .flashback-page .btn {
-    background-color: #f0c808;
-    border-color: #f0c808;
-    color: #333;
-  }
-  
-  .flashback-page .btn:hover {
-    background-color: #e6b800;
-    border-color: #e6b800;
-  }
-  
-  .flashback-page h1,
-  .flashback-page h2,
-  .flashback-page h3 {
-    color: #f0c808;
-  }
-  
-  .flashback-page .specific-component {
-    border-color: #f0c808;
-  }
-  </style>
