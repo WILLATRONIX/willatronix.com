@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Start Reading
-      link: /docs/
+      link: docs/
     - theme: alt
       text: Help
-      link: /help/
+      link: help/
 
 features:
   - title: Download From Modrinth
