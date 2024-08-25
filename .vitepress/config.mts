@@ -5,6 +5,7 @@ export default defineConfig({
   title: "WILLATRONIX",
   description: "Everything WILLATRONIX.",
   lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,16 +25,6 @@ export default defineConfig({
       }
     },
     sidebar: {
-      '/': [
-        {
-          text: 'Examples',
-          items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
-          ]
-        }
-      ],
-
       '/about/hobbies/games/minecraft/builds/': [
         {
           text: "My Minecraft Builds",
@@ -81,6 +72,38 @@ export default defineConfig({
             { text: 'About', link: './index' },
             { text: 'References', link: './references' },
             { text: 'Build Process', link: './build-process' },
+          ]
+        }
+      ],
+
+      '/flashback/docs/': [
+        {
+          text: 'Flashback Documentation', link: '/flashback',
+          items: [
+            {
+              text: 'Editor', link: '/flashback/docs/editor/',
+              items: [
+                {
+                  text: 'Timeline', link: '/flashback/docs/editor/timeline/',
+                  items: [
+                    { text: 'Elements', link: '/flashback/docs/editor/timeline/elements' },
+                    { text: 'Keyframes', link: '/flashback/docs/editor/timeline/keyframes' },
+                  ]
+                }
+              ]
+            },
+            {
+              text: 'Recording', link: '/flashback/docs/recording/',
+              items: [
+                {
+                  text: 'Timeline', link: '/flashback/docs/recording/',
+                  items: [
+                    { text: 'Elements', link: '/flashback/docs/recording/' },
+                    { text: 'Keyframes', link: '/flashback/docs/recording/' },
+                  ]
+                }
+              ]
+            },
           ]
         }
       ],
