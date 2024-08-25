@@ -8,9 +8,9 @@
   
   <script setup>
   import { useRoute } from 'vitepress'
-  import './flashback.css'
+  import './flashback-page.css'
   
   const route = useRoute()
   
-  const customClass = route.path.startsWith('/flashback') ? 'flashback' : ''
+  const customClass = route.path.startsWith('/flashback') ? 'flashback-page' : ''
   </script>

@@ -1,36 +1,36 @@
-/* .vitepress/theme/flashback.css */
+/* .vitepress/theme/flashback-page.css */
 
-.flashback {
+.flashback-page {
     background-color: #fff9db;
     color: #333;
   }
   
-  .flashback a {
+  .flashback-page a {
     color: #f0c808;
   }
   
-  .flashback a:hover {
+  .flashback-page a:hover {
     color: #e6b800;
   }
   
-  .flashback .btn {
+  .flashback-page .btn {
     background-color: #f0c808;
     border-color: #f0c808;
     color: #333;
   }
   
-  .flashback .btn:hover {
+  .flashback-page .btn:hover {
     background-color: #e6b800;
     border-color: #e6b800;
   }
   
-  .flashback h1,
-  .flashback h2,
-  .flashback h3 {
+  .flashback-page h1,
+  .flashback-page h2,
+  .flashback-page h3 {
     color: #f0c808;
   }
   
-  .flashback .specific-component {
+  .flashback-page .specific-component {
     border-color: #f0c808;
     background-color: #fff9db;
   }

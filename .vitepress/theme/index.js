@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import './flashback.css'
+import './flashback-page.css'
 
 export default {
   ...DefaultTheme,
