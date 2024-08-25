@@ -6,7 +6,7 @@ hero:
   text: ""
   tagline: The unofficial documentation for the Flashback Mod.
   image:
-    src: /img/flashback/camera.webp
+    src: img\flashback\camera.webp
     alt: Camera
   actions:
     - theme: brand
