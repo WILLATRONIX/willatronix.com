@@ -9,34 +9,6 @@ export default defineConfig({
   base: 'user.github.io/willatronix.com/',
   title: 'WILLATRONIX',
   description: 'Your description here',
-  themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      {
-        text: 'Dropdown Menu',
-        items: [
-          { text: 'Markdown Examples 1', link: '/markdown-examples' },
-          { text: 'Markdown Examples 2', link: '/markdown-examples' },
-          { text: 'Markdown Examples 3', link: '/markdown-examples' },
-        ],
-      },
-    ],
-    sidebar: {
-      '/': [
-        {
-          text: 'Home',
-          link: '/home'
-        },
-        {
-          text: 'Guide',
-          children: [
-            { text: 'Getting Started', link: '/guide/getting-started' },
-          ]
-        }
-      ]
-    }
-  },
-
   
   plugins: [
       laravel({

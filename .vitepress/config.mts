@@ -8,6 +8,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/img/about-willatronix/avatar/5.webp',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Flashback Docs', link: '/flashback/' },
@@ -115,7 +116,7 @@ export default defineConfig({
       ]},
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/WILLATRONIX/willatronix.com' }
+      { icon: 'github', link: 'https://github.com/WILLATRONIX/' }
     ]
   },
   markdown: {
