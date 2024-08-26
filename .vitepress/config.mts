@@ -5,7 +5,7 @@ export default defineConfig({
   title: "WILLATRONIX",
   description: "Everything WILLATRONIX.",
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'https://cdn.discordapp.com/attachments/1156310194171687024/1277748554382835742/favicon.ico?ex=66ce4b92&is=66ccfa12&hm=a2083c1bf83459bdff03c86086bd000de715de74864cdef65063e1301b3bcbbf&' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/img/about-willatronix/avatar/5.webp',
