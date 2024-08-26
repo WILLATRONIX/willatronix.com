@@ -25,7 +25,7 @@ features:
     link: https://discord.com/invite/flashbacktool
   - title: Become a member on Patreon
     details: Support the developers and get access to pre-release versions of Flashback.
-    link: https://www.youtube.com/watch?v=XPBwuC97_-w
+    link: https://www.patreon.com/flashbackmod
   - title: Watch a video tutorial
     details: 'Mogswamp: Minecraft YouTube is About to Change Forever'
     link: https://www.youtube.com/watch?v=XPBwuC97_-w

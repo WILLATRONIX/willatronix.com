@@ -1,6 +1,6 @@
 # Elements
 
-Elements allow you to control a specific feature of the replay. To add an element, press the 'Add Element' button located under the playback controls.
+Elements allow you to control a specific feature of the replay. To add an element, press the 'Add Element' button located under the [Playback Controls](index.md).
 
 ## Element Types
 
