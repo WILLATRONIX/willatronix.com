@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Flashback Docs', link: '/flashback/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Contact Me', link: '/markdown-examples' }
     ],
     search: {
       provider: 'local',

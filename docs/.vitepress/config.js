@@ -15,7 +15,9 @@ export default defineConfig({
       {
         text: 'Dropdown Menu',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Markdown Examples 1', link: '/markdown-examples' },
+          { text: 'Markdown Examples 2', link: '/markdown-examples' },
+          { text: 'Markdown Examples 3', link: '/markdown-examples' },
         ],
       },
     ],
