@@ -5,10 +5,10 @@ export default defineConfig({
   title: "WILLATRONIX",
   description: "Everything WILLATRONIX.",
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: 'https://cdn.discordapp.com/attachments/1156310194171687024/1277748554382835742/favicon.ico?ex=66ce4b92&is=66ccfa12&hm=a2083c1bf83459bdff03c86086bd000de715de74864cdef65063e1301b3bcbbf&' }]],
+  head: [['link', { rel: 'icon', href: 'https://download1321.mediafire.com/29p680f08uggpSJw1L_jHhEua7y-ti_0WCy0LHhjNZ8aWhI6Zu9IwtOf6p_ZvsBpiAmnJ17h3MwiRPgQqrY9m6_zM66pb5rtt8kUH0SZncSEPve97kGsu_iHbzckULIemOcpF3CeIwXANs8aCHrYN4cfd7RylxCXd8lJwrJBOg/caidpkfbf5t8fj9/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/img/about-willatronix/avatar/5.webp',
+    logo: 'https://download1324.mediafire.com/gamvaafru9uga7E5RTT8YaxqnibAWJMLPlReJJIjtks5qg1CLy-ae79FsBIajsu_Su568pS40gfslkV_BzzRM_JjTEe0yxPYH9LEdwZcQ1nSObBMemw5j_IRMVSC5RKI3NoOFz4X1y8H8kDBoVJrzLX-Gvfr3vsym60Cuf29_A/hz3r95akbb2f77z/5.webp',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Flashback Docs', link: '/flashback/' },
