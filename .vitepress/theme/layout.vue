@@ -15,7 +15,7 @@
   
   function applyClass() {
     const pageContainer = document.getElementById('page-container')
-    if (route.path.startsWith('/flashback')) {
+    if (route.path.startsWith('/flashback/')) {
       pageContainer.classList.add('flashback-page')
     } else {
       pageContainer.classList.remove('flashback-page')

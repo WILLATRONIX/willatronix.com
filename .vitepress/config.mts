@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Flashback Docs', link: '/flashback/' },
-      { text: 'Contact Me', link: '/markdown-examples' }
+      { text: 'Contact Me', link: '/contact' }
     ],
     search: {
       provider: 'local',
@@ -82,6 +82,12 @@ export default defineConfig({
           text: 'Flashback Documentation', link: '/flashback',
           items: [
             {
+              text: 'Recording', link: '/flashback/docs/recording/',
+              items: [
+                { text: 'Configuration', link: '/flashback/docs/recording/config' },
+              ]
+            },
+            {
               text: 'Editor', link: '/flashback/docs/editor/',
               items: [
                 {
@@ -93,12 +99,6 @@ export default defineConfig({
                 },
                 { text: 'Visuals', link: '/flashback/docs/editor/visuals' },
                 { text: 'Exporting', link: '/flashback/docs/editor/exporting' },
-              ]
-            },
-            {
-              text: 'Recording', link: '/flashback/docs/recording/',
-              items: [
-                { text: 'Configuration', link: '/flashback/docs/recording/config' },
               ]
             },
           ]
