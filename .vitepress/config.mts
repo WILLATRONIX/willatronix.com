@@ -89,19 +89,15 @@ export default defineConfig({
                     { text: 'Elements', link: '/flashback/docs/editor/timeline/elements' },
                     { text: 'Keyframes', link: '/flashback/docs/editor/timeline/keyframes' },
                   ]
-                }
+                },
+                { text: 'Visuals', link: '/flashback/docs/editor/visuals' },
+                { text: 'Exporting', link: '/flashback/docs/editor/exporting' },
               ]
             },
             {
               text: 'Recording', link: '/flashback/docs/recording/',
               items: [
-                {
-                  text: 'Timeline', link: '/flashback/docs/recording/',
-                  items: [
-                    { text: 'Elements', link: '/flashback/docs/recording/' },
-                    { text: 'Keyframes', link: '/flashback/docs/recording/' },
-                  ]
-                }
+                { text: 'Configuration', link: '/flashback/docs/recording/config' },
               ]
             },
           ]
