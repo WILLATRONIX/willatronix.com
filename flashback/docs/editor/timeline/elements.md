@@ -4,6 +4,10 @@ Elements allow you to control a specific feature of the replay. To add an elemen
 
 ## Element Types
 
+The following element types are listed in the same order as the list shown in the 'Add Element' menu.
+
+All elements can be added more than once.
+
 ### Camera
 
 The Camera element allows you to manipulate the camera position and rotation.

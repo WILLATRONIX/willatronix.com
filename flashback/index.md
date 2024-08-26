@@ -11,19 +11,22 @@ hero:
   actions:
     - theme: brand
       text: Start Reading
-      link: docs/editor/timeline/
+      link: docs/
     - theme: alt
       text: Help
       link: help/
 
 features:
   - title: Download From Modrinth
-    details: Download the latest version of the mod
+    details: Download the latest version of the mod.
     link: https://modrinth.com/mod/flashback
-  - title: Join the discord
-    details: Receive support and share your footage
+  - title: Join the Discord
+    details: Receive support and share your Flashback footage.
     link: https://discord.com/invite/flashbacktool
+  - title: Become a member on Patreon
+    details: Support the developers and get access to pre-release versions of Flashback.
+    link: https://www.youtube.com/watch?v=XPBwuC97_-w
   - title: Watch a video tutorial
-    details: Learn some quick info
+    details: 'Mogswamp: Minecraft YouTube is About to Change Forever'
     link: https://www.youtube.com/watch?v=XPBwuC97_-w
 ---
