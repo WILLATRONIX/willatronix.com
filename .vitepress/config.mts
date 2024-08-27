@@ -79,7 +79,7 @@ export default defineConfig({
 
       '/flashback/docs/': [
         {
-          text: 'Flashback Documentation', link: '/flashback',
+          text: 'Flashback Documentation', link: '/flashback/docs/',
           items: [
             {
               text: 'Recording', link: '/flashback/docs/recording/',

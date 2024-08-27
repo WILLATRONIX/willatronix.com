@@ -12,6 +12,12 @@ All elements can be added more than once.
 
 The Camera element allows you to manipulate the camera position and rotation. By default, the camera keyframe will be set to the current position.
 
+This keyframe also captures the follwing overrides from the [Visuals](/flashback/docs/editor/visuals.md#overrides) window.
+
+- Override FOV
+- Camera Shake
+- Camera Roll
+
 ### Camera Orbit
 
 The Camera Orbit element rotates around the provided coordinate. This element requires two [keyframes](keyframes.md) for the start position and an end position. Both the start and end positions should have at least one different value to achieve some form of rotation.
