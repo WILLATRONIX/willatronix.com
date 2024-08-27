@@ -15,9 +15,6 @@ hero:
     - theme: alt
       text: Help
       link: help/
-    - theme: alt
-      text: Leave A Suggestion
-      link: https://forms.gle/zpFZ7Ngn8jDxEVju8
 
 features:
   - title: Download From Modrinth
