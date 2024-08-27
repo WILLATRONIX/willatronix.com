@@ -46,7 +46,9 @@ The Speed element controls how fast the replay is played back. The minimum value
 
 Unlike the Speed element, Timelapse controls the play header directly. This element also requires two [keyframes](keyframes.md) for the start and end.
 
-> The start keyframe must have a higher value than the end keyframe.
+::: warning
+The start keyframe must have a higher value than the end keyframe.
+:::
 
 To create a Timelapse, add two Timelapse keyframes and set the second keyframe to a higher value. The difference between the two keyframe values determine the length of time it takes for the play header to reach each keyframe.
 
