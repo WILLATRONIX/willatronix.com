@@ -6,7 +6,7 @@ Elements allow you to control a specific feature of the replay. To add an elemen
 
 The following element types are listed in the same order as the list shown in the 'Add Element' menu.
 
-All elements can be added more than once.
+All elements can be added more than once. If two of the same element has overlapping [keyframes](keyframes.md), the higher element in the list will have a higher priority.
 
 ### Camera
 
@@ -20,7 +20,7 @@ This keyframe also captures the follwing overrides from the [Visuals](/flashback
 
 ### Camera Orbit
 
-The Camera Orbit element rotates around the provided coordinate. This element requires two [keyframes](keyframes.md) for the start position and an end position. Both the start and end positions should have at least one different value to achieve some form of rotation.
+The Camera Orbit element rotates around the provided coordinate. This element requires two keyframes for the start position and an end position. Both the start and end positions should have at least one different value to achieve some form of rotation.
 
 #### Position 
 
