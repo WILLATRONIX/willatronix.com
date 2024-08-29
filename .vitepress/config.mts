@@ -98,6 +98,7 @@ export default defineConfig({
                   ]
                 },
                 { text: 'Visuals', link: '/flashback/docs/editor/visuals' },
+                { text: 'Entity Options', link: '/flashback/docs/editor/entityoptions' },
                 { text: 'Exporting', link: '/flashback/docs/editor/exporting' },
               ]
             },

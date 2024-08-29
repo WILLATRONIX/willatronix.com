@@ -8,7 +8,7 @@ The Capture Options section contains the most essential options for exporting. T
 
 If you're using the [In/Out](timeline/index.md#inout-positions) positions, the 'Start/end tick' inputs can be left as they are. The framerate option allows for custom framerates.
 
-The last option in the capture options is used to 'Reset RNG'. This is useful for [Batch Renders](#start-export--add-to-queue) to make sure items and XP orbs move consistently across renders.
+The last two options are 'Reset RNG' and 'SSAA'. Reset RNG is useful for [Batch Renders](#start-export--add-to-queue) to make sure things like particles across multiple renders. The SSAA option removes the harsh edges and smoothes out the image by doubling the resolution and then downscaling to average the pixel colour.
 
 ## Video Options
 

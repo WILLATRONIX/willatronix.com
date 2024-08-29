@@ -20,7 +20,7 @@ The playback controls are listed on the upper left corner of the timeline window
 
 ## Navigating The Timeline
 
-To navigate along the timeline, use the time ruler located at the top of the Timeline window. Clicking on any point of this ruler will move the play header to that position in time. You can also drag the triangular-shaped top of the play header to drag it across the Timeline.
+To navigate along the timeline, use the time ruler located at the top of the Timeline window. Clicking on any point of this ruler will move the play header to that position in time, this can also be done by scolling up or down. You can also drag the triangular-shaped top of the play header to drag it across the Timeline.
 
 If you have [keyframes](keyframes.md) set on the timeline, you can use the control key to view them as you're dragging the play header. Pressing shift while dragging the play header will snap to exact keyframe positions on the timeline.
 

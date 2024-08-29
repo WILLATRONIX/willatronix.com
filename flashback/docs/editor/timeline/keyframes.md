@@ -8,7 +8,7 @@ To add a keyframe, press the plus icon adjacent to the [Element](elements.md) ti
 
 Moving keyframes along the timeline should be very simple. Drag the keyframe icon with left-click to where you'd like to position the keyframe. You can select multiple keyframes by dragging over them in the timeline. With multiple keyframes selected, you can hold the alt key while dragging to keep their relative distance.
 
-Right-clicking a keyframe icon will open up a small menu where you can edit the values and properties of each keyframe. To change a keyframe type, click the 'Type' drop-down.
+Right-clicking a keyframe icon will open up a small menu where you can edit the values and properties of each keyframe. To change a keyframe type, click the 'Type' drop-down. The 'Tick' value represents how many ticks from the start it takes until the keyframe is reached.
 
 To delete a keyframe, select it and press either the backspace key or the delete key. You can also remove keyframes by pressing the 'Remove' button in the keyframe editor popup.
 

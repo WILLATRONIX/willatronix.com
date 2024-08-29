@@ -10,13 +10,8 @@ All elements can be added more than once. If two of the same element has overlap
 
 ### Camera
 
-The Camera element allows you to manipulate the camera position and rotation. By default, the camera keyframe will be set to the current position.
+The Camera element allows you to manipulate the camera position and rotation. The current camera position, yaw, pitch and [roll](/flashback/docs/editor/visuals.md#overrides) are captured when adding a new keyframe. These values can be modified by [Modifying the Keyframe](keyframes.md#modifying-keyframes) 
 
-This keyframe also captures the follwing overrides from the [Visuals](/flashback/docs/editor/visuals.md#overrides) window.
-
-- Override FOV
-- Camera Shake
-- Camera Roll
 
 ### Camera Orbit
 
@@ -34,6 +29,20 @@ The Camera Orbit element rotates around the provided coordinate. This element re
 
  - The Yaw and Pitch values are used to rotate around the position. Make sure the start keyframe has different values to the end to achieve the effect of rotation. 
 
+### Camera Shake
+
+The Camera Shake element allows for a realistic handheld camera effect.
+
+The following effects can be separated for both X and Y by enabling the 'Split Y/X' toggle.
+
+#### Frequency
+
+ - The frequency value effects how 'fast' the Camera Shake effect is.
+
+#### Amplitude
+
+ - The Amplitude value determines how much the camera should be offset.
+
 ### FOV
 
 The FOV element allows for inputting a specific Field of View value. The minimum FOV is 1 and the maximum value is 110.
@@ -50,24 +59,10 @@ Unlike the Speed element, Timelapse controls the play header directly. This elem
 The start keyframe must have a higher value than the end keyframe.
 :::
 
-To create a Timelapse, add two Timelapse keyframes and set the second keyframe to a higher value. The difference between the two keyframe values determine the length of time it takes for the play header to reach each keyframe.
+To create a Timelapse, add two Timelapse keyframes and set the second keyframe to a higher value. The difference between the two keyframe values determine the duration it takes for the play header to reach each keyframe. Once the keyframes have their values set, the duration will be displayed between each Timelapse keyframe. An unsuccessful setup will highlight the second keyframe orange.
 
 For example, a Timelapse keyframe at 00:00 with a value of 0s and a Timelapse keyframe at 01:00 with a value of 5s will play a minute's worth of replay in 5 seconds.
 
 ### Time of Day
 
 Allows for inputting a time value measured in ticks.
-
-### Camera Shake
-
-The Camera Shake element allows for a realistic handheld camera effect.
-
-The following effects can be separated for both X and Y by enabling the 'Split Y/X' toggle.
-
-#### Frequency
-
- - The frequency value effects how 'fast' the Camera Shake effect is.
-
-#### Amplitude
-
- - The Amplitude value determines how much the camera should be offset.
