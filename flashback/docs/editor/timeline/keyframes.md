@@ -10,7 +10,7 @@ Moving keyframes along the timeline should be very simple. Drag the keyframe ico
 
 Right-clicking a keyframe icon will open up a small menu where you can edit the values and properties of each keyframe. To change a keyframe type, click the 'Type' drop-down. The 'Tick' value represents how many ticks from the start it takes until the keyframe is reached.
 
-To delete a keyframe, select it and press either the backspace key or the delete key. You can also remove keyframes by pressing the 'Remove' button in the keyframe editor popup.
+To delete a keyframe, select it and press either the backspace key or the delete key. You can also remove keyframes by pressing the 'Remove' button in the keyframe editor popup. Next to the delete button will be the 'Apply' button. This will teleport the you to the exact camera position.
 
 ## Keyframe Types
 
